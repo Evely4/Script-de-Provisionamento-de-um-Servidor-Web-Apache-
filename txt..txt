@@ -1,0 +1,40 @@
+
+
+Script-de-Provisionamento-de-um-Servidor-Web-Apache-'
+INSTALAÇÃO 
+
+Requisitos
+Uma conta no Oracle Cloud Infrastructure Free Tier. Comece Gratuitamente.
+Um computador MacOS, Linux ou Windows com suporte ssh instalado.
+
+- No Debian, a instalação é feita através do pacote apache2:
+maria@debian:~# apt-get install apache2.
+
+- Por padrão, a instalação já cria um site padrão que ele chama
+de ”default”
+
+- São também instalados vaários módulos e os módulos base
+são habilitados
+1. Configurar um Compartimento para Desenvolvimento
+Configure um compartimento para seu desenvolvimento.
+
+Criar um Compartimento
+2. Instalar sua Instância do Ubuntu Linux
+Use o assistente de Criação de uma Instância de VM para criar uma nova instância de computação.
+
+O assistente faz várias coisas ao instalar a instância:
+
+Cria e instala uma instância de computação que executa o Ubuntu Linux.
+Cria uma VCN com a sub-rede e os componentes necessários para conectar sua instância do Ubuntu Linux à internet.
+Cria um par de chaves ssh que você usa para se conectar à sua instância.
+Verificar Etapas de Instalação
+3. Ativar Acesso à Internet
+O assistente de Criação de uma Instância de VM cria automaticamente uma VCN para sua VM. Você adiciona uma regra de entrada à sua sub-rede para permitir conexões com a internet na porta 80.
+
+Criar uma Regra de Entrada para a sua VCN
+4. Configurar o Apache e o PHP
+Em seguida, instale e configure o servidor Web Apache e o PHP a serem executados na sua instância do Ubuntu Linux.
+
+Instalar e Configurar o Apache e o PHP
+O Que Vem a Seguir
+Você instalou e implantou com sucesso um servidor Web Apache e o PHP no Oracle Cloud Infrastructure usando uma instância do Linux.
